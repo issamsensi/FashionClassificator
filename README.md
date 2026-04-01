@@ -29,19 +29,19 @@ For a stable demo, use the built-in random dataset image flow in the Streamlit a
 
 ### Dashboard Home
 
-[![Fashion-MNIST dashboard home](data/screenshots/fashion_home.png)](data/screenshots/fashion_home.png)
+[![Fashion-MNIST dashboard home](src/screenshots/fashion_home.png)](src/screenshots/fashion_home.png)
 
 ### Random Dataset Prediction
 
-[![Random Fashion-MNIST prediction](data/screenshots/fashion2.png)](data/screenshots/fashion2.png)
+[![Random Fashion-MNIST prediction](src/screenshots/fashion2.png)](src/screenshots/fashion2.png)
 
 ### External Image Upload
 
-[![Uploaded image preprocessing and prediction](data/screenshots/fashion3.png)](data/screenshots/fashion3.png)
+[![Uploaded image preprocessing and prediction](src/screenshots/fashion3.png)](src/screenshots/fashion3.png)
 
 ### Training Curves
 
-[![Training accuracy and loss curves](data/screenshots/fashion4.png)](data/screenshots/fashion4.png)
+[![Training accuracy and loss curves](src/screenshots/fashion4.png)](src/screenshots/fashion4.png)
 
 ## Repository Structure
 
@@ -51,11 +51,7 @@ For a stable demo, use the built-in random dataset image flow in the Streamlit a
 ├── requirements.txt
 ├── explore_and_train_model.ipynb
 ├── data/
-│   └── screenshots/
-│       ├── fashion_home.png
-│       ├── fashion2.png
-│       ├── fashion3.png
-│       └── fashion4.png
+│   └── fashion-mnist_*.csv
 ├── model/
 │   ├── best_fashion_mnist.keras
 │   ├── fashion_mnist.keras
@@ -65,6 +61,12 @@ For a stable demo, use the built-in random dataset image flow in the Streamlit a
 │   ├── confusion_matrix.png
 │   └── classification_report.json
 └── src/
+  ├── screenshots/
+  │   ├── confusion_matrix.png
+  │   ├── fashion_home.png
+  │   ├── fashion2.png
+  │   ├── fashion3.png
+  │   └── fashion4.png
     ├── train_model.py
     └── preprocess_image.py
 ```
@@ -134,7 +136,7 @@ The model currently achieves the following on the test set:
 
 ### Confusion Matrix
 
-[![Confusion matrix on the Fashion-MNIST test set](model/confusion_matrix.png)](model/confusion_matrix.png)
+[![Confusion matrix on the Fashion-MNIST test set](src/screenshots/confusion_matrix.png)](src/screenshots/confusion_matrix.png)
 
 ## Recommended Demo Flow
 
@@ -168,4 +170,4 @@ Because real photos differ strongly from Fashion-MNIST style, prediction quality
 
 ## License
 
-Add your preferred license (MIT, Apache-2.0, etc.) in a `LICENSE` file.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
