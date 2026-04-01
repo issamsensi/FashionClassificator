@@ -29,19 +29,19 @@ For a stable demo, use the built-in random dataset image flow in the Streamlit a
 
 ### Dashboard Home
 
-![Fashion-MNIST dashboard home](data/screenshots/fashion_home.png)
+![Fashion-MNIST dashboard home](https://raw.githubusercontent.com/issamsensi/FashionClassificator/main/data/screenshots/fashion_home.png)
 
 ### Random Dataset Prediction
 
-![Random Fashion-MNIST prediction](data/screenshots/fashion2.png)
+![Random Fashion-MNIST prediction](https://raw.githubusercontent.com/issamsensi/FashionClassificator/main/data/screenshots/fashion2.png)
 
 ### External Image Upload
 
-![Uploaded image preprocessing and prediction](data/screenshots/fashion3.png)
+![Uploaded image preprocessing and prediction](https://raw.githubusercontent.com/issamsensi/FashionClassificator/main/data/screenshots/fashion3.png)
 
 ### Training Curves
 
-![Training accuracy and loss curves](data/screenshots/fashion4.png)
+![Training accuracy and loss curves](https://raw.githubusercontent.com/issamsensi/FashionClassificator/main/data/screenshots/fashion4.png)
 
 ## Repository Structure
 
@@ -134,7 +134,7 @@ The model currently achieves the following on the test set:
 
 ### Confusion Matrix
 
-![Confusion matrix on the Fashion-MNIST test set](model/confusion_matrix.png)
+![Confusion matrix on the Fashion-MNIST test set](https://raw.githubusercontent.com/issamsensi/FashionClassificator/main/model/confusion_matrix.png)
 
 ## Recommended Demo Flow
 
