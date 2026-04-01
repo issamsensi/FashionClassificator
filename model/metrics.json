@@ -1,0 +1,8 @@
+{
+  "epochs": 20,
+  "train_samples": 51000,
+  "val_samples": 9000,
+  "test_samples": 10000,
+  "test_loss": 0.17559434473514557,
+  "test_accuracy": 0.9434999823570251
+}
